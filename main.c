@@ -7,23 +7,23 @@ int main() {
     scanf("%d", &windSpeed);
 
     if (windSpeed < 74) {
-        printf("Not a hurricane\n");
+        printf("Not a hurricane");
     }
     else if (windSpeed < 96) {
-        printf("Category 1 Hurricane\n");
+        printf("Category 1 Hurricane");
    
     } else if (windSpeed < 111) {
-        printf("Category 2 Hurricane\n");
+        printf("Category 2 Hurricane");
    
     } else if (windSpeed < 130) {
-        printf("Category 3 Hurricane\n");
+        printf("Category 3 Hurricane");
    
     } else if (windSpeed < 157) {
-        printf("Category 4 Hurricane\n");
+        printf("Category 4 Hurricane");
    
     
     } else {
-        printf("Category 5 Hurricane\n");
+        printf("Category 5 Hurricane");
     }
 
     return 0;
