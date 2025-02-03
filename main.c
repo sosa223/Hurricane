@@ -9,7 +9,8 @@ int main() {
     if (windSpeed < 74) {
         printf("Not a hurricane");
     }
-    else if (windSpeed < 96) {
+    else if (windSpeed < 96) 
+    {
         printf("Category 1 Hurricane");
    
     } else if (windSpeed < 111) {
@@ -18,7 +19,9 @@ int main() {
     } else if (windSpeed < 130) {
         printf("Category 3 Hurricane");
    
-    } else if (windSpeed < 157) {
+    } else if (windSpeed < 157) 
+    
+    {
         printf("Category 4 Hurricane");
    
     
